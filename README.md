@@ -1,6 +1,6 @@
-# Prompts_n_Pockets_Guide
- Action Framework- condensed version/quick reference guide 
- # A Quick Reference Guide to the Action Framework's Three-Step Iterative Process
+
+
+ # A Quick Reference Guide to the Action Framework's Three-Step Iterative Process: A Strategic Framework for Prompt Engineering
 
 Welcome to the Quick Reference Guide to the Action Framework's Three-Step Iterative Process. This guide is your straightforward route to interact with AI language models and optimize your questions and requests.
 
@@ -47,11 +47,11 @@ Remember, the Action Framework is here to empower you to ask better questions an
 
 ## Overview of the Action Framework's Three-Step Iterative Process
 
-The Action Framework is a set of guiding principles and strategies used to effectively interact with AI language models. It comprises three steps - Contextualization, Prioritization and Prompting, and Evaluation and Iterative Refinement.
+The Action Framework is a set of guiding principles and strategies used to effectively interact with AI language models. It comprises three steps - Brainstorming and Contextualization, Prioritization and Prompting, and Evaluation and Iterative Refinement.
 
 ## Breakdown of Each Step
 
-* Contextualization: This step involves defining the task's purpose, audience, and situation to guide the AI's understanding.
+* Brainstorming and Contextualization: This step involves exploring various ideas, and defining the task's purpose, audience, and situation to guide the AI's understanding.
 * Prioritization and Prompting: Here, you outline the desired tone, style, and specific elements to include or exclude in the AI's output.
 * Evaluation and Iterative Refinement: Evaluate the AI's output against your intended goal and preferences. Identify areas of improvement, refine the instruction, and re-submit the instruction. Repeat this process until the output aligns with your expectation.
 
@@ -67,7 +67,7 @@ The Action Framework is a set of guiding principles and strategies used to effec
 * Be specific about what you want the AI to focus on.
 * Always evaluate the AI's output and refine your instructions based on the output.
 
-# The Action Framework: 
+# The Action Framework: A Strategic Framework for Prompt Engineering
 
 ## 🧩 A Detailed Breakdown of Each Step
 
