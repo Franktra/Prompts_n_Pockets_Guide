@@ -15,4 +15,6 @@ The development of the Action Framework Tutorials was a highly challenging and e
 This updated Action Framework code will allow users to input their parameters in a more structured and detailed manner, which should result in more accurate and useful outputs from the AI model. ( User Testing, Collect Feedback, Iterative Refinement)
 
 Remember to replace the placeholders in the action_framework dictionary with your specific guidelines, and replace "What is your actual prompt here?" with your actual prompt in the final print statement. The triple slashes "///" denote the start and end of the prompt architecture. 
+## PLACEHOLDER_TUTORIALS_Materials: 
+Videos, case studies, community forum link, reflection and improvement notes, mentoring signup form link, + Example of a prompt for a summary task
 
