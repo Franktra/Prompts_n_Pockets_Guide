@@ -1,0 +1,108 @@
+# Complete Action Framework guide in progress + Document A_Simplified_Guide: AF (Content needed) 
+# The Action Framework: Three Main Steps
+
+action_framework_steps = {
+    "Data-Informed Planning": "In this step, you'll learn how to use data from previous interactions with the model to plan your prompts effectively.",
+
+    "Prioritization and Prompting": {
+        "Objective": "Clearly state your objective or what you want to achieve with the model's response.",
+        "Action Word": "Choose a single action word that represents the main task you want the model to perform.",
+        "Context": "Provide relevant context or background information to guide the model's understanding.",
+        "Desired Format/Style": "Specify the format, style, or tone you prefer in the model's response.",
+        "Additional Instructions": "Include any specific instructions, focal points, or elements you want the model to consider or exclude."
+    },
+
+simplified_guide = {
+    "Introduction": "Welcome to the Simplified Action Framework User Guide. This guide serves as an introduction to interacting with language models using the Simplified Action Framework. Designed with beginners in mind, this guide presents a clear, uncomplicated approach to using language models effectively.",
+    "The Simplified Action Framework": "The Simplified Action Framework consists of three fundamental steps. Step 1 is 'Data-Informed Planning', where we decide on our objective and gather necessary information. Step 2, 'Prioritization and Prompting', involves formulating the best possible prompt to guide the model. Lastly, Step 3, 'Evaluation and Iterative Refinement', ensures continuous improvement by analyzing the model's output and refining our approach based on those insights.",
+    "Example Scenarios": "The 'Example Scenarios' section presents practical examples illustrating how the Simplified Action Framework can be used in real-life situations, whether you're drafting an email, writing an essay, or seeking information on a specific topic.",
+    "Glossary of Terms": "The 'Glossary of Terms' provides clear definitions of key terms and concepts used throughout this guide, aiding your understanding and facilitating effective use of the Simplified Action Framework.",
+    "Feedback Mechanism": "Your feedback matters! We're committed to improving this guide and making the Simplified Action Framework as user-friendly and effective as possible. Share your thoughts, suggestions, and experiences to help us continually enhance this resource."
+}
+
+comprehensive_guide = {
+    "Introduction": "Welcome to the Comprehensive Action Framework User Guide. This guide delves deeper into the Action Framework, designed for those who want to advance their skills in prompt engineering and fully optimize their interactions with language models.",
+    "Understanding Language Models and Prompt Engineering": "This section offers an in-depth exploration of language models and prompt engineering. Learn about the capabilities and limitations of language models, understand the principle of prompt engineering, and explore strategies for responsible AI use.",
+    "The Enhanced Action Framework": "The Enhanced Action Framework section presents a detailed look at the Framework's three-step iterative process, explaining each step and demonstrating how they work together to optimize language model interactions.",
+    "In-depth Examples and Case Studies": "This section features comprehensive examples and case studies that showcase the versatility and effectiveness of the Action Framework across a range of scenarios.",
+    "Advanced Techniques and Strategies": "For users ready to go beyond the basics, this section covers advanced techniques and strategies for prompt engineering, offering insights on how to handle complex tasks and challenges.",
+    "Glossary of Terms": "This comprehensive glossary provides clear definitions of key terms and concepts used throughout this guide, serving as a handy reference as you explore the complexities of prompt engineering.",
+    "Feedback Mechanism": "Your insights are invaluable to us. Share your feedback to help us continually refine and improve this guide, making the Comprehensive Action Framework a more effective tool for all users."
+}
+
+iterative_process_guide = {
+    "Overview of the Action Framework's Three-Step Iterative Process": "This section offers a comprehensive overview of the Action Framework's three-step iterative process, covering the crucial phases of Data-Informed Planning, Prioritization and Prompting, and Evaluation and Iterative Refinement.",
+    "Detailed Breakdown of Each Step": "Dive deeper into the iterative process with a detailed breakdown of each step. Understand their individual purposes, how they function, and how they contribute to the overall success of your interaction with the language model.",
+    "Examples Showcasing the Iterative Process": "This section features examples that demonstrate the three-step iterative process in action, illustrating how the Action Framework can be applied to achieve effective results in real-life scenarios.",
+    "Tips for Effective Iteration": "Want to make your iterative process more effective? This section provides practical tips and strategies, from refining your objectives to tweaking your prompts for better outcomes.",
+    "Feedback Mechanism": "We're always striving to improve, and your feedback is a crucial part of that. Whether it's a success story, a challenge you've faced, or a suggestion for improvement, we want to hear it all. Your shared experiences help us refine and enhance the Action Framework."
+}
+FAQs = {
+    "Introduction": "Welcome to the FAQs section. This section aims to answer some of the most common questions users have about the Action Framework and prompt engineering. It serves as a quick resource to clear up any misconceptions and provide clarity.",
+    "What is the Action Framework?": "The Action Framework is a structured approach designed to optimize interactions with language models. It consists of a three-step iterative process: Data-Informed Planning, Prioritization and Prompting, and Evaluation and Iterative Refinement.",
+    "How does the Action Framework improve my interaction with Language Models?": "The Action Framework guides users in structuring their prompts and understanding the behavior of language models. By following its three-step process, users can generate more effective prompts that align closely with their objectives.",
+    "What are the principles of Prompt Engineering?": "Prompt Engineering is the practice of crafting prompts to elicit desired responses from a language model. Its principles revolve around clear objective setting, providing sufficient context, specifying the desired format or style, and continually refining prompts based on evaluation of model outputs.",
+    "How can I continuously improve my prompts?": "Improvement comes from iterative refinement. After receiving a response from the language model, analyze its effectiveness. Is the result what you wanted? If not, revise your prompt considering where it might have been unclear or insufficient, and try again. Remember, the process is iterative and improvement comes with practice and patience."
+}
+case_studies = {
+    "Introduction": "Welcome to the Case Studies section. Here, you will find real-world examples demonstrating the effective use of the Action Framework. Each case study presents the user's original objective, the implementation of the Action Framework, the iterative process, and the final result.",
+    "Case Study 1: Drafting an Email": "In this case study, we explore how a user employed the Action Framework to draft a professional email...",
+    "Case Study 2: Researching a Topic": "This case study showcases a user's journey using the Action Framework to research a complex topic...",
+    "Case Study 3: Learning a New Skill": "Discover how the Action Framework guided a user in using a language model to learn a new skill..."
+}
+feedback_forms = {
+    "Introduction": "Feedback forms are instrumental in understanding user experiences and making necessary improvements. Here, you'll find two separate feedback forms: one for general users of these guides and another for those on personalized plans.",
+    "User Feedback Form": {
+        "Introduction": "The User Feedback Form seeks to understand your experience with this guide and the Action Framework. Your responses will help us refine our resources and provide better support for all users.",
+        "Questions": [
+            "How helpful have you found this guide for understanding Language Models and the Action Framework?",
+            "Are there areas in the guide you feel need more explanation or clarity?",
+            "Have you seen an improvement in the results of your prompts after applying the Action Framework?",
+            "What additional resources or sections would you find beneficial in this guide?",
+            "Would you like to share any success stories or prompt examples for our case studies?"
+        ]
+    },
+    "Personalized Plan Feedback Form": {
+        "Introduction": "The Personalized Plan Feedback Form is for users following a personalized learning plan. Your feedback will guide us in tailoring these plans to better fit user needs.",
+        "Questions": [
+            "How well do you feel the personalized plan is addressing your needs in learning Prompt Engineering?",
+            "Are there specific strategies in the personalized plan that you have found particularly effective?",
+            "What improvements, if any, would you like to see in the personalized plan?",
+            "Would you like to share any success stories or specific prompts that have given you great results?"
+        ]
+    }
+}
+
+
+
+documents = {
+    "Document A - Simplified Guide": {
+        "Introduction": """Welcome to the Simplified Guide to the Action Framework. This guide provides an introduction to using AI language models effectively for various tasks. Whether you're drafting emails, writing articles, or seeking creative inspiration, the Action Framework is here to enhance your interaction with AI, making it more purposeful and enjoyable. Please remember, in all your interactions, AI should always be used responsibly, with a commitment to fairness, accountability, and avoiding harm.""",
+
+        "Understanding Language Models and the Action Framework": {
+            "Language Models": """A Language Model (LM) is an AI model that understands and generates human-like text. AI models like GPT-3 and GPT-4 are trained on large volumes of data, allowing them to generate responses, complete tasks, or offer suggestions based on the prompts they receive. However, it's crucial to note that they do not 'understand' the text in the way humans do and have limitations.""",
+            "The Action Framework": """The Action Framework is a structured method consisting of three key steps: Data-Informed Planning, Prioritization and Prompting, and Evaluation and Iterative Refinement. These steps guide you to craft effective prompts, helping you get better results from the AI."""
+        },
+
+        "The Simplified Action Framework": {
+            "Step 1 - Data-Informed Planning": """Data-Informed Planning involves researching and understanding your objective. For instance, if you're asking the AI to draft an article about the latest advances in renewable energy, you'll first need to research the topic yourself to provide relevant and factual information.""",
+            "Step 2 - Prioritization and Prompting": """Once you have a good understanding of your objective, define your priorities. What is the most important aspect of the task? This step will guide you to craft an effective prompt that is clear, precise, and provides adequate context for the AI.""",
+            "Step 3 - Evaluation and Iterative Refinement": """After the AI generates an output, evaluate it. Does it meet your requirements? If not, refine your prompt and try again. This step encourages continuous learning and improvement, making your interaction with the AI more effective over time."""
+        },
+
+        "Example Scenarios": {
+            "Scenario 1": """Let's say you need a detailed report on the impact of climate change. Using the Action Framework, you would first gather the latest data and research on the topic (Data-Informed Planning). Next, you define your priorities and craft a prompt asking the AI to analyze this data and provide a detailed report (Prioritization and Prompting). Once the AI generates the report, you evaluate it and refine your prompt if necessary (Evaluation and Iterative Refinement).""",
+            "Scenario 2": """Suppose you need a poem about spring. Start by understanding the elements you want in your poem, such as blooming flowers, singing birds, and warmer temperatures (Data-Informed Planning). Prioritize these elements and craft a clear, precise prompt for the AI (Prioritization and Prompting). Once the AI generates the poem, evaluate its creativity, relevance, and flow, refining your prompt if needed (Evaluation and Iterative Refinement)."""
+        },
+
+        "FAQs": {
+            "What are Language Models?": """Language Models (LMs) are AI models designed to understand and generate text that is similar to human language. They are trained on large volumes of data and respond to user prompts to complete tasks, provide suggestions, or generate responses.""",
+            "What is the Action Framework?": """The Action Framework is a structured approach to using AI language models more effectively. It consists of three steps: Data-Informed Planning, Prioritization and Prompting, and Evaluation and Iterative Refinement. It is designed to help you craft effective prompts and get better results from the AI.""",
+            "Why use the Action Framework?": """The Action Framework provides a structured, effective way to interact with AI language models. It helps you understand how to craft effective prompts and iteratively refine them based on the AI's output, making your interaction with the AI more effective and purposeful."""
+        },
+
+        "Feedback": """We appreciate your feedback! Please share your experience using this guide via our [Feedback Form]. Your input helps us to continually improve our resources and serve you better."""
+    },
+    xxx
+}
+
