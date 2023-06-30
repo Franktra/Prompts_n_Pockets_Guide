@@ -1,0 +1,40 @@
+
+# PLACEHOLDER_TUTORIALS_Materials: Videos, case studies, community forum link, reflection and improvement notes, mentoring signup form link, + Example of a prompt for a summary task
+# Placeholder for a video tutorial link
+video_tutorial_link = "https://www.example.com/video-tutorial"
+
+# Placeholder for a live workshop registration link
+workshop_registration_link = "https://www.example.com/live-workshop"
+
+# Placeholder for case studies
+case_studies_link = "https://www.example.com/case-studies"
+
+# Placeholder for a community forum link
+community_forum_link = "https://www.example.com/community-forum"
+
+# Example of a prompt for a summary task
+summary_task = {
+    "Brainstorm (Goal)": "Generate a concise summary",
+    "Action Word (Goal)": "Summarize",
+    "Context (Situation)": "An article about the environmental impact of plastic waste",
+    "Prioritize (Preferences)": "Focus on key points, avoid unnecessary details",
+    "Reliability": "Ensure the summary is factual and accurate",
+    "Unbiased Output": "Ensure the summary does not favor any particular viewpoint",
+    "Responsible AI": "Respect copyright laws, avoid plagiarism"
+}
+# Placeholder for reflection and improvement notes
+reflection_notes = "Your notes go here"
+# Placeholder for a feedback collection form link
+feedback_form_link = "https://www.example.com/feedback-form"
+# Placeholder for useful learning resources links
+learning_resources_links = {
+    "Workshops": "https://www.example.com/workshops",
+    "Seminars": "https://www.example.com/seminars",
+    "Online Courses": "https://www.example.com/online-courses",
+    "Research Papers": "https://www.example.com/research-papers",
+    "Articles": "https://www.example.com/articles"
+}
+# Placeholder for a mentoring signup form link
+mentoring_signup_form_link = "https://www.example.com/mentoring-signup-form"
+# Placeholder for a conclusion note
+conclusion_note = "Your conclusion note goes here"
