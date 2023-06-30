@@ -1,0 +1,40 @@
+class ActionFramework:
+    def __init__(self):
+        self.goal = None
+        self.situation = None
+        self.preferences = None
+        self.standards = None
+        self.prompt = None
+
+    def set_goal(self, goal):
+        self.goal = goal
+
+    def set_situation(self, situation):
+        self.situation = situation
+
+    def set_preferences(self, preferences):
+        self.preferences = preferences
+
+    def set_standards(self, standards):
+        self.standards = standards
+
+    def generate_prompt(self):
+        self.prompt = f"Given the goal to {self.goal} about {self.situation}, with preferences leaning towards {self.preferences}, and adhering to the following standards: {self.standards}, how would you respond?"
+        return self.prompt
+
+    def display(self):
+        print("Action Framework Details:")
+        print("Goal:", self.goal)
+        print("Situation:", self.situation)
+        print("Preferences:", self.preferences)
+        print("Standards:", self.standards)
+        print("Generated Prompt:", self.prompt)
+
+# Example usage:
+af = ActionFramework()
+af.set_goal("inform")
+af.set_situation("a report on the history of AI development")
+af.set_preferences("a detailed timeline, including key players and milestones")
+af.set_standards("using factual, unbiased information from credible sources, ensuring information is safe and adheres to responsible AI and ethical AI principles")
+print(af.generate_prompt())
+af.display()
