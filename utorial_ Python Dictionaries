@@ -1,0 +1,38 @@
+
+# Tutorial Content as Python Dictionaries
+
+tutorials = {
+    1: {
+        "title": "Understanding AI and Introduction to Action Framework",
+        "content": "- Understanding AI\n- Basic interaction with AI: Direct questioning\n- Introduction to the Action Framework: An Overview\n- How the Action Framework elevates basic interaction",
+        "feedback_link": "http://example.com/feedback/tutorial1"
+    },
+    2: {
+        "title": "Data-Informed Planning – The First Step to Guiding AI's Understanding",
+        "content": "- The importance of using data in AI interaction\n- Setting clear objectives and defining the context for the AI\n- Exercise: Crafting data-informed plans for different scenarios",
+        "feedback_link": "http://example.com/feedback/tutorial2"
+    },
+    3: {
+        "title": "Prioritization and Prompting – Setting AI's Course",
+        "content": "- Guiding AI's approach with clear priorities\n- Outlining the tone, style, and specific elements\n- Exercise: Setting priorities for AI outputs",
+        "feedback_link": "http://example.com/feedback/tutorial3"
+    }
+}
+
+def print_tutorial(tutorial_number):
+    tutorial = tutorials[tutorial_number]
+    print(tutorial["title"])
+    print("-" * len(tutorial["title"]))
+    print(tutorial["content"])
+    print(f"\nFor feedback, visit: {tutorial['feedback_link']}\n")
+
+# Print the content of a specific tutorial
+print_tutorial(1)
+
+# Write the content of tutorials to a text file
+with open('tutorials_content.txt', 'w') as file:
+    for num, tutorial in tutorials.items():
+        file.write(tutorial["title"] + "\n")
+        file.write("-" * len(tutorial["title"]) + "\n")
+        file.write(tutorial["content"] + "\n")
+        file.write(f"For feedback, visit: {tutorial['feedback_link']}\n\n")
