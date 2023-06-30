@@ -1,0 +1,39 @@
+
+# Tutorial Content as Python Strings
+
+# Tutorial 1
+tutorial_1 = """
+Understanding AI and Introduction to Action Framework
+-----------------------------------------------------
+- Understanding AI
+- Basic interaction with AI: Direct questioning
+- Introduction to the Action Framework: An Overview
+- How the Action Framework elevates basic interaction
+"""
+
+# Tutorial 2
+tutorial_2 = """
+Data-Informed Planning – The First Step to Guiding AI's Understanding
+--------------------------------------------------------------------
+- The importance of using data in AI interaction
+- Setting clear objectives and defining the context for the AI
+- Exercise: Crafting data-informed plans for different scenarios
+"""
+
+# Tutorial 3
+tutorial_3 = """
+Prioritization and Prompting – Setting AI's Course
+--------------------------------------------------
+- Guiding AI's approach with clear priorities
+- Outlining the tone, style, and specific elements
+- Exercise: Setting priorities for AI outputs
+"""
+
+# Print the content of a specific tutorial
+print(tutorial_1)
+
+# Write the content of tutorials to a text file
+with open('tutorials_content.txt', 'w') as file:
+    file.write(tutorial_1)
+    file.write(tutorial_2)
+    file.write(tutorial_3)
