@@ -1,0 +1,25 @@
+
+# Action_Framework_Breakdown Example
+
+action_framework = {
+    "Brainstorm (Goal)": "Your brainstorming or goal goes here",
+    "Action Word (Situation)": "Your action word or situation goes here",
+    "Context (Situation)": "Your context or situation details go here",
+    "Prioritize (Preferences)": "Your prioritized elements, tone, style, or format preferences go here",
+    "Reliability": "Your reliability standards go here",
+    "Unbiased Output": "Your unbiased output guidelines go here",
+    "Responsible AI": "Your Responsible AI instructions go here"
+}
+
+prompt = f"""
+///Brainstorm (Goal): {action_framework['Brainstorm (Goal)']}
+Action Word (Situation): {action_framework['Action Word (Situation)']}
+Context (Situation): {action_framework['Context (Situation)']}
+Prioritize (Preferences): {action_framework['Prioritize (Preferences)']}
+Reliability: {action_framework['Reliability']}
+Unbiased Output: {action_framework['Unbiased Output']}
+Responsible AI: {action_framework['Responsible AI']}///
+What is your actual prompt here?
+"""
+
+print(prompt)
