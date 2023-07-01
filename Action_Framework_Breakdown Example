@@ -9,7 +9,9 @@ action_framework = {
     "Reliability": "Your reliability standards go here",
     "Unbiased Output": "Your unbiased output guidelines go here",
     "Responsible AI": "Your Responsible AI instructions go here"
-}
+}    
+
+    # Alternatively, you could embed the framework with your prompt and instruct the model to generate its output accordingly.
 
 prompt = f"""
 ///Brainstorm (Goal): {action_framework['Brainstorm (Goal)']}
