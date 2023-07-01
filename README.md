@@ -18,3 +18,6 @@ Remember to replace the placeholders in the action_framework dictionary with you
 ## PLACEHOLDER_TUTORIALS_Materials: 
 Videos, case studies, community forum link, reflection and improvement notes, mentoring signup form link, + Example of a prompt for a summary task
 
+# # Git commands for version control
+Version control- manage different versions of your code. This allows you to keep track of changes, revert to a previous version if needed, and collaborate with others.
+
