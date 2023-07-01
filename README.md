@@ -23,3 +23,6 @@ Version control- manage different versions of your code. This allows you to keep
 
 # Unleashing Creativity: The Action Framework for AI-Powered Adventures (ADD: links for Articles + Github)
 full article with the requested hyperlinks
+***NEW*** 
+# SpeechTherapyChatbot
+Updated original code to integrate the Action Framework, as well as the enhancements. The Action Framework seems very useful for specifying the goal, situation, preferences, and standards for the AI, making the AI output safer, more reliable, and more tailored to the user's needs.The Action Framework helps to provide a more focused and controlled approach to generate responses, ensuring that the output adheres to the guidelines provided. This will improve the safety of the output and can help to make the chatbot more reliable and effective.
