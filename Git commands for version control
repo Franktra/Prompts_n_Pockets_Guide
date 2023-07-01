@@ -1,0 +1,5 @@
+## Git commands for version control
+Version control- manage different versions of your code. This allows you to keep track of changes, revert to a previous version if needed, and collaborate with others.
+git add .
+git commit -m "commit message"
+git push origin main
