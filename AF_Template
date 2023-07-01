@@ -3,7 +3,7 @@ class ActionFramework:
         self.goal = None
         self.situation = None
         self.preferences = None
-        self.standards = None
+        self.standards = using factual, unbiased information from credible sources, ensuring information is safe and adheres to responsible AI and ethical AI principles
         self.prompt = None
 
     def set_goal(self, goal):
