@@ -3,3 +3,26 @@ Version control- manage different versions of your code. This allows you to keep
 git add .
 git commit -m "commit message"
 git push origin main
+
+# Example of a CI/CD configuration file
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run tests
+        run: pytest
