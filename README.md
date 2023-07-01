@@ -21,3 +21,5 @@ Videos, case studies, community forum link, reflection and improvement notes, me
 # Git commands for version control
 Version control- manage different versions of your code. This allows you to keep track of changes, revert to a previous version if needed, and collaborate with others.
 
+# Unleashing Creativity: The Action Framework for AI-Powered Adventures (ADD: links for Articles + Github)
+full article with the requested hyperlinks
